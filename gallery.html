@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+        /* Create four equal columns that sits next to each other */
+        
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+        
+        .column img {
+            width: 100%;
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        
+        @media (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        
+        @media (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Kid Rock</h1>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="images/29906170001_5504898548001_5504868892001-vs.jpg">
+            <img src="images/220px-Kidexplicit.jpg">
+            <img src="images/220px-Roll_On_Kid_Rock.jpg">
+            <img src="images/2I1A4265.0.jpg">
+            <img src="images/5b578e03338fd.image.jpg">
+            <img src="images/5ac3b4831458b.image.jpg">
+            <img src="images/636246578410587838-Kid-Rock.jpg">
+        </div>
+
+        <div class="column">
+            <img src="images/679753250.jpg.0.jpg">
+            <img src="images/81j75SQqpuL._SL1425_.jpg">
+            <img src="images/B1QyxIev+XS._CR0,0,3840,2880_._SL1000_.jpg">
+            <img src="images/gettyimages-846259862_master.jpg">
+            <img src="images/hqdefault.jpg">
+            <img src="images/EQCugzFX0AEjzqt.jpg">
+        </div>
+
+        <div class="column">
+            <img src="images/image.jpg">
+            <img src="images/kid-rock-america-c57e90ad-f240-4973-9b53-16a49f215a4d.jpg">
+            <img src="images/Kid-Rock--012.jpg">
+            <img src="images/kid2_custom-aefb8ec986019131de70ec72f9f05b7d7adfca2f-s800-c85.jpg">
+            <img src="images/kid_rock_photo_by_valerie_macon_afp_getty_79695840.jpg">
+            <img src="images/kid-rock-bb0860873345c50d8dc208034c1a08aed1be2ca1-s800-c85.jpg">
+            <img src="images/pamela-anderson-and-kid-rock.jpg">
+        </div>
+
+        <div class="column">
+            <img src="images/kid-rock-press-photo-2017-billboard-bw-1548.jpg">
+            <img src="images/kid-rock.jpg">
+            <img src="images/Kid_Rock_Dec_2013.jpg">
+            <img src="images/Kid_Rock_The_History_of_Rock.jpg">
+            <img src="images/KidRock_WebStory.jpg">
+            <img src="images/KidRockHead.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>
